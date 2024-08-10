@@ -76,3 +76,6 @@ def process_pdf(file):
         page_text = pdf_reader.pages[page_num].extract_text()
         text += page_text
     return text
+
+if __name__ == '__main__':
+    app.run(debug=True)
