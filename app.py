@@ -77,5 +77,5 @@ def process_pdf(file):
         text += page_text
     return text
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
